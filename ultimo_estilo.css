@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    height: 100vh;
+    background-color: #696969;
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    height: 135px;
+    background: rgba(39, 43, 44, 0.87);
+    box-shadow: 3px 0 13px rgba(30, 30, 30, 0.90);
+}
+
+img { 
+    height: 130px;
+    width: 134px;
+    height: auto;
+    display: flex;
+    border-radius: 10px;
+}
+
+.navbar {
+    background: rgba(39, 43, 44, 0.87); /* Cor da barra de navegação */
+}
+
+.navbar .nav-link {
+    color: #fc0f0f; /* Cor do texto dos links */
+}
+
+.navbar .nav-link:hover {
+    color: #f8f9fa; /* Cor do texto ao passar o mouse */
+}
+
+.navbar-brand {
+    color: #ffffff; /* Cor do texto da marca */
+}
+
+.navbar-brand:hover {
+    color: #f8f9fa; /* Cor ao passar o mouse na marca */
+}

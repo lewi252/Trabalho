@@ -1,0 +1,82 @@
+.nav-bar {
+    display: flex;
+    height: 150px;
+    width: 100%;
+}
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333; /* Cor do texto */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Altura total da tela */
+}
+
+/* Estilo do formulário de login */
+.login-form {
+    background-color: #fff; /* Fundo branco para o formulário */
+    padding: 20px;
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    width: 300px; /* Largura do formulário */
+}
+
+/* Estilo dos grupos de formulário */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Estilo dos rótulos */
+.form-group label {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+/* Estilo dos campos de entrada */
+.form-control {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #28a745;
+    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+}
+
+/* Estilo do botão */
+.Botão {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.btn-success {
+    padding: 12px 50px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 100%;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    transform: scale(1.02);
+}
